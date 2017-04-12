@@ -3,9 +3,11 @@ Mock objects example for Java
 
 ## Dans MAIN:
 On crée le fichier et un FileWriter.
+
 Après, on crée un FileWriterWrapper et on lui donne le FileWriter comme paramètre. 
    - Dans le programmer normale, le FW et le FWWrapper font la même chose.
    - Dans les tests, au lieu d'envoier un FW, ou va envoyer un MockFileWriter
+   
 Ensuite, on appelle le methode write du FWW et une méthode de JavaGenerator 
    - Dans le programmer normale, tout va être écrit dans un fichier txt
    - Dans les tests, on compare le texte de sortie avec du résultat attendu.
