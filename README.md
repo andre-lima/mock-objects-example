@@ -21,7 +21,7 @@ Extends FileWriterWrapper et Overrides le méthode `write` pour pouvoir concaté
 Les méthodes ici prennent un FWW comme paramètre.
    - Puisque le MockFileWriter extends de FWW, on peut aussi envoyer un MFW comme paramètre. Ça va être utile au moment d'écrire les tests.
 
-La classe a des méthodes pour écrire des choses (code Java) sur un FWW passé en paramètre.
+Cette classe a des méthodes pour écrire des choses (code Java) sur un FWW passé en paramètre.
    - Si on passe le MFW, il va l'utiliser en place du FWW.
 
 ## La classe JavaGeneratorTest
